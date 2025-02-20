@@ -10,6 +10,7 @@
 
 This is the official demo code for [ReKep](https://rekep-robot.github.io/) implemented in [OmniGibson](https://behavior.stanford.edu/omnigibson/index.html). ReKep is a method that uses large vision models and vision-language models in a hierarchical optimization framework to generate closed-loop trajectories for manipulation tasks.
 
+**Note: This codebase currently does not contain the perception pipeline used in our real-world experiments, including keypoint tracking, mask tracking, and SDF reconstruction. Instead, it directly accesses this information from the simulation. If you are interested in deploying the code on a real robot, please refer to [this section](#real-world-deployment) below and the paper [Appendix](https://rekep-robot.github.io/rekep.pdf#page=20.09), where further details are provided.**
 
 ## Setup Instructions
 
