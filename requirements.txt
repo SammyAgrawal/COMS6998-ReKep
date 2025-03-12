@@ -7,3 +7,4 @@ torch
 numba
 kmeans_pytorch
 parse
+numba
