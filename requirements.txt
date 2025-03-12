@@ -4,5 +4,6 @@ opencv-python
 hydra-core
 openai
 torch
+numba
 kmeans_pytorch
 parse

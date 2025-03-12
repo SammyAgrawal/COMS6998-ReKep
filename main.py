@@ -24,7 +24,7 @@ from utils import (
 
 class Main:
     def __init__(self, scene_file, visualize=False):
-        global_config = get_config(config_path="./configs/config.yaml")
+        global_config = get_config(config_path="/mnt/home/ssa2206/SteerKep/COMS6998-ReKep/configs/config.yaml")
         self.config = global_config['main']
         self.bounds_min = np.array(self.config['bounds_min'])
         self.bounds_max = np.array(self.config['bounds_max'])
@@ -367,7 +367,7 @@ if __name__ == "__main__":
 
     task_list = {
         'pen': {
-            'scene_file': './configs/og_scene_file_pen.json',
+            'scene_file': '/mnt/home/ssa2206/SteerKep/COMS6998-ReKep/configs/og_scene_file_pen.json',
             'instruction': 'reorient the white pen and drop it upright into the black pen holder',
             'rekep_program_dir': './vlm_query/pen',
             'disturbance_seq': {1: stage1_disturbance_seq, 2: stage2_disturbance_seq, 3: stage3_disturbance_seq},
